@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &915542388324464799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 915542388324464801}
+  - component: {fileID: 915542388324464800}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &915542388324464801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915542388324464799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.63549197, y: -0.44484434, z: -0.635492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &915542388324464800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915542388324464799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6ec41440e52438ca7e826aad405a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elements: []
+  potions: []
+  _puddlePrefab: {fileID: 2919327994302402597, guid: 8a4595187f59d2e47a96697c052ad79b,
+    type: 3}
+  _bombPotionPrefab: {fileID: 2454919927683581115, guid: b4a756d5d62bef646978888e8c7990b0,
+    type: 3}
+  _jumpPotionPrefab: {fileID: 4327054373690754826, guid: 216f798232254334299190772a5f2725,
+    type: 3}
+  _puddlePotionPrefab: {fileID: 7086090691298184997, guid: 5d998e962c078b947ac7b58d619ce279,
+    type: 3}
+  _icePotionPrefab: {fileID: 4112915700909532480, guid: 5844e0fe449c0e34980a6bfacee9869f,
+    type: 3}
+  _hotTeaPotionPrefab: {fileID: 559475011551509163, guid: 75b063dadab01594b8df87b29cec2779,
+    type: 3}
+  _crystalliumElementPrefab: {fileID: 2086870675919033169, guid: d7674eefc88792745a2f914b50b2a883,
+    type: 3}
+  _etherElementPrefab: {fileID: 8726059837089488864, guid: a2c1110368097b643842e0861ed9715b,
+    type: 3}
+  _springsilverElementPrefab: {fileID: 8590348502103145552, guid: da5f35198911d2c4997a4ee41110cc92,
+    type: 3}
+  _hydrogenumElementPrefab: {fileID: 7267199435610624490, guid: ae1f13410fc6f5d4495e142572bd28ad,
+    type: 3}
+  _myxolidiumElementPrefab: {fileID: 5847276531611113081, guid: bc34674d9bc6600459d9b05d646d2b6f,
+    type: 3}
+  gameOver: 0
